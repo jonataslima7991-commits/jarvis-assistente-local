@@ -1,0 +1,32 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Segredos — nunca versionar
+.env
+credentials.json
+*.jarvis_google_token.json
+
+# Dados locais do usuário
+notes.txt
+*.jarvis_history.json
+*.jarvis_memory.json
+*.jarvis_contacts.json
+*.jarvis_last_briefing.json
+*.jarvis_last_active.json
+*.jarvis_groq_usage.json
+
+# Ferramentas locais / IDE
+.claude/
+.vscode/
+.idea/
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Arquivos de teste temporários gerados durante o desenvolvimento
+_test_*.py
+
+# Referências visuais (não usadas pelo app)
+imagens/

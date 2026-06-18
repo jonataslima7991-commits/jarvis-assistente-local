@@ -1,0 +1,46 @@
+# J.A.R.V.I.S. — dependências
+# Python 3.14  |  Windows 10+
+
+# LLM (Groq API — nuvem, rápido)
+groq>=1.4.0
+
+# TTS + efeito de voz
+edge-tts>=6.1.0
+miniaudio>=1.60
+sounddevice>=0.4.7
+
+# STT (faster-whisper, muito mais rápido que openai-whisper)
+faster-whisper>=1.2.0
+
+# Wake word ("hey jarvis") — detecção contínua de baixíssimo custo de CPU
+openwakeword>=0.6.0
+
+# Interface gráfica
+PySide6>=6.11.0
+
+# Utilitários
+numpy>=1.24.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+psutil>=5.9.0
+
+# Controle de sistema (volume, janelas, screenshots, OCR, notificações)
+pycaw>=20230407
+pygetwindow>=0.0.9
+pyautogui>=0.9.54
+mss>=9.0.1
+Pillow>=10.0.0
+pytesseract>=0.3.10
+plyer>=2.1.0
+
+# Busca web em tempo real
+tavily-python>=0.5.0
+
+# Leitura de PDFs
+pypdf>=4.0.0
+
+# Google Calendar
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-api-python-client>=2.100.0
+tzdata>=2024.1
